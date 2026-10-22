@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.37.6 (2026-10-22)
+
+> Improve guidance for unrecognized import formats, allow Memory as the default session page, and fix MCP array parameter types.
+
+### 🐛 Bug Fixes
+
+- Show an explanation and an AI conversion guide when a chat record format is not recognized, with multilingual support for single-file and batch imports.
+- Allow Memory to be set as the default page when opening a chat session. (by [@KokerZhou](https://github.com/KokerZhou))
+- [MCP] Fix tool calls failing because string, number, and boolean array parameters were incorrectly treated as strings. (by [@moesnow](https://github.com/moesnow))
+
 ## v0.37.5 (2026-09-28)
 
 > Unify right-side panels, add desktop UI scaling, and fix session loading, data source configuration, and model downloads through proxies.
